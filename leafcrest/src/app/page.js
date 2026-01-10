@@ -23,6 +23,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           
           <div>
+            <br></br>
             <p className="uppercase tracking-widest text-sm text-green-700">
               Pure Ceylon Tea
             </p>
