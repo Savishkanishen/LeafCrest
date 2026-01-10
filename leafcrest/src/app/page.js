@@ -27,7 +27,7 @@ export default function Home() {
               Pure Ceylon Tea
             </p>
 
-            <h1 className="mt-4 text-5xl md:text-6xl font-bold text-[#14532d] leading-tight">
+            <h1 className="mt-4 text-4xl md:text-6xl font-bold text-[#14532d] leading-tight">
               Crafted by Nature, <br /> Perfected by Tradition
             </h1>
 
@@ -37,9 +37,10 @@ export default function Home() {
             </p>
 
             <div className="mt-8 flex gap-4">
-              <button className="px-6 py-3 bg-[#14532d] text-white rounded-xl hover:bg-green-900 transition">
+              <a href="/products" >
+              <button className="px-6 py-3 bg-[#14532d] text-white rounded-xl hover:bg-green-900 transition" >
                 Explore Teas
-              </button>
+              </button></a>
               <button className="px-6 py-3 border border-[#14532d] text-[#14532d] rounded-xl hover:bg-green-50 transition">
                 Our Story
               </button>
