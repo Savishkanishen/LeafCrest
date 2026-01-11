@@ -38,14 +38,14 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="mt-6 text-gray-700">
-            Have a question about our teas or want to place an order?
+            Have a question about our tea or want to place an order?
             We’d love to hear from you.
           </p>
 
           <div className="mt-10 space-y-4 text-gray-700">
             <p>📍 Sri Lanka</p>
-            <p>📧 hello@leafcraest.com</p>
-            <p>📞 +94 7X XXX XXXX</p>
+            <p>📧 leafcresttea@gmail.com</p>
+            <p>📞 +94 70 591 4888</p>
           </div>
 
           {/* WHATSAPP CTA */}

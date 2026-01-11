@@ -4,6 +4,8 @@ import "./globals.css";
 import Link from "next/link";
 import { Playfair_Display, Inter } from "next/font/google";
 import { motion, AnimatePresence } from "framer-motion";
+import { Instagram } from "lucide-react";
+
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -33,13 +35,29 @@ export default function RootLayout({ children }) {
               LeafCraest 🍃
             </Link>
 
+ 
+
+
             {/* Desktop Menu */}
             <div className="hidden md:flex gap-8 text-sm font-medium text-gray-800">
               <Link href="/" className="hover:text-green-700 transition">Home</Link>
               <Link href="/about" className="hover:text-green-700 transition">About</Link>
-              <Link href="/products" className="hover:text-green-700 transition">Teas</Link>
-              <Link href="/contact" className="hover:text-green-700 transition">Contact</Link>
+              <Link href="/products" className="hover:text-green-700 transition">Tea</Link>
+              <Link href="/contact" className="hover:text-green-700 transition">Contact us</Link>
+            
+            {/* Instagram */}
+           
+  <a
+    href="https://www.instagram.com/leafcrest.tea?igsh=NnhmNGllMGpyOG4w&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-700 hover:text-pink-600 transition"
+  >
+    <Instagram size={20} />
+  </a>
+
             </div>
+            
 
             {/* Mobile Hamburger */}
             <div className="md:hidden">
@@ -67,9 +85,28 @@ export default function RootLayout({ children }) {
                 <div className="flex flex-col gap-4 px-6 py-4 text-gray-800 text-lg font-medium">
                   <Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-green-700 transition">Home</Link>
                   <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:text-green-700 transition">About</Link>
-                  <Link href="/products" onClick={() => setMenuOpen(false)} className="hover:text-green-700 transition">Teas</Link>
-                  <Link href="/contact" onClick={() => setMenuOpen(false)} className="hover:text-green-700 transition">Contact</Link>
-                </div>
+                  <Link href="/products" onClick={() => setMenuOpen(false)} className="hover:text-green-700 transition">Tea</Link>
+                  <Link href="/contact" onClick={() => setMenuOpen(false)} className="hover:text-green-700 transition">Contact us</Link>
+                
+
+                {/* Instagram Link */}
+
+                    <a 
+  href="https://www.instagram.com/leafcrest.tea?igsh=NnhmNGllMGpyOG4w&utm_source=qr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 text-pink-600 font-medium"
+>
+  <Instagram size={18} />
+  Instagram
+</a>
+
+
+
+                  </div>
+
+
+
               </motion.div>
             )}
           </AnimatePresence>
@@ -79,6 +116,10 @@ export default function RootLayout({ children }) {
         {children}
 
         {/* Footer */}
+        
+        
+
+
         <footer className="mt-24 bg-[#14532d] text-white">
           <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
             
@@ -90,6 +131,21 @@ export default function RootLayout({ children }) {
               </p>
             </div>
 
+            {/* instagram */}
+
+            <div className="hover:text-pink-500 hover:scale-110 transition duration-300">
+
+  <a
+    href="https://www.instagram.com/leafcrest.tea?igsh=NnhmNGllMGpyOG4w&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-pink-400 transition"
+  >
+    <Instagram />
+  </a>
+</div>
+
+
             {/* Explore */}
             <div>
               <h4 className="font-semibold mb-3">Explore</h4>
@@ -97,7 +153,7 @@ export default function RootLayout({ children }) {
                 <li><Link href="/" className="hover:text-green-200">Home</Link></li>
                 <li><Link href="/about" className="hover:text-green-200">About</Link></li>
                 <li><Link href="/products" className="hover:text-green-200">Tea</Link></li>
-                <li><Link href="/contact" className="hover:text-green-200">Contact</Link></li>
+                <li><Link href="/contact" className="hover:text-green-200">Contact us</Link></li>
               </ul>
             </div>
 
