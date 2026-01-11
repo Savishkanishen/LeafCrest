@@ -39,12 +39,16 @@ export default function Home() {
 
             <div className="mt-8 flex gap-4">
               <a href="/products" >
-              <button className="px-6 py-3 bg-[#14532d] text-white rounded-xl hover:bg-green-900 transition" >
+              <button className="px-6 py-3 bg-[#14532d] text-white rounded-xl hover:bg-green-900 transition hover:scale-110 transition duration-300" >
                 Explore Teas
               </button></a>
-              <button className="px-6 py-3 border border-[#14532d] text-[#14532d] rounded-xl hover:bg-green-50 transition">
+
+              <a href="/about">
+              
+              <button className="px-6 py-3 border border-[#14532d] text-[#14532d] rounded-xl hover:bg-green-50 transition hover:scale-110 transition duration-300">
                 Our Story
               </button>
+              </a>
             </div>
           </div>
 
