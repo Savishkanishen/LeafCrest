@@ -17,7 +17,7 @@ export default function About() {
             Our Story
           </h1>
           <p className="mt-6 text-gray-600 max-w-3xl mx-auto">
-            LeafCraest was born from a deep respect for nature, tradition,
+            LeafCrest was born from a deep respect for nature, tradition,
             and the timeless art of tea crafting in Sri Lanka.
           </p>
         </motion.div>
@@ -33,7 +33,7 @@ export default function About() {
               Rooted in Ceylon
             </h2>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              From the misty highlands of Sri Lanka, LeafCraest sources
+              From the misty highlands of Sri Lanka, LeafCrest sources
               handpicked tea leaves cultivated using sustainable practices.
               Each harvest reflects generations of knowledge passed down
               through skilled tea artisans.

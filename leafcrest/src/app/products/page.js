@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const teas = [
   {
-    name: "Ceylon Black Tea",
+    name: "Ceylon Tea",
     desc: "Rich, bold flavor with deep aroma.",
     price: "LKR 2,500",
     image: "/black-tea.jpg",
@@ -16,7 +16,7 @@ const teas = [
     image: "/green-tea.jpg",
   },
   {
-    name: "Herbal Infusion",
+    name: "Cinnamon Tea",
     desc: "Naturally calming herbal blend.",
     price: "LKR 3,000",
     image: "/herbal-tea.jpg",

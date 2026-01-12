@@ -13,7 +13,7 @@ export default function Contact() {
 
     // WhatsApp number in Sri Lanka format (remove leading 0, add 94)
     const phone = "94705914888"; 
-    const text = `Hello LeafCraest 🌿%0A%0AName: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+    const text = `Hello LeafCrest 🌿%0A%0AName: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
 
     // Show success feedback
     setSent(true);

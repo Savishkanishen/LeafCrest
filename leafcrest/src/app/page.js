@@ -33,7 +33,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-lg text-gray-700">
-              LeafCraest brings you premium handpicked tea leaves from
+              LeafCrest brings you premium handpicked tea leaves from
               Sri Lanka’s finest estates — rich aroma, authentic taste.
             </p>
 
@@ -83,7 +83,7 @@ export default function Home() {
             From Leaf to Cup
           </h2>
           <p className="mt-6 text-gray-600 max-w-3xl mx-auto">
-            Every LeafCraest tea leaf is carefully selected, naturally
+            Every LeafCrest tea leaf is carefully selected, naturally
             processed, and packed to preserve freshness, aroma, and flavor —
             just as nature intended.
           </p>

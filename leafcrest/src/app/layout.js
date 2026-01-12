@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
             
             {/* Logo */}
             <Link href="/" className="text-2xl font-bold text-[#14532d] font-[var(--font-playfair)]">
-              LeafCraest 🍃
+              LeafCrest 🍃
             </Link>
 
  
@@ -125,7 +125,7 @@ export default function RootLayout({ children }) {
             
             {/* Brand Info */}
             <div>
-              <h3 className="text-xl font-semibold font-[var(--font-playfair)]">LeafCraest 🍃</h3>
+              <h3 className="text-xl font-semibold font-[var(--font-playfair)]">LeafCrest 🍃</h3>
               <p className="mt-2 text-sm text-green-100">
                 Premium Ceylon Tea, crafted with tradition & purity.
               </p>
@@ -168,7 +168,7 @@ export default function RootLayout({ children }) {
           </div>
 
           <div className="text-center text-xs text-green-200 pb-4">
-            © {new Date().getFullYear()} LeafCraest. All rights reserved.
+            © {new Date().getFullYear()} LeafCrest. All rights reserved.
           </div>
         </footer>
 
